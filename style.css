@@ -1,0 +1,38 @@
+:root,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+    background-color: white;
+}
+
+.interface {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+canvas {
+    cursor: none;
+    pointer-events: none;
+}
+
+.drop-item {
+    display: none;
+}
+
+.drop-menu {
+    position: relative;
+}
+.drop-menu:hover,
+.drop-menu:focus {
+    background-color: #ef5eef;
+}
+.drop-menu:hover .drop-item,
+.drop-menu:focus .drop-item {
+    display: block;
+}
